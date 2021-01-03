@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Goldman", cursive;
+  text-align: justify;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: rgb(59, 59, 59);
+  border-radius: 18px;
+  margin: 5px 3px 5px 3px;
+  padding: 7px 5px;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: rgb(205, 152, 255);
+}
+.anime {
+  margin: 12px 3px;
+  padding: 10px 5px;
+  background-color: rgb(239, 197, 255);
+  border-radius: 10px;
+}
+#naruto {
+  float: left;
+}
+#narutoShippuden {
+  float: right;
+}
+#naruto,
+#narutoShippuden {
+  width: 45%;
+  background-color: rgb(255, 252, 78);
+}
+#dbz1,
+#dbz2,
+#dbz3,
+#dbz4 {
+  background-color: rgb(226, 240, 146);
+  float: left;
+  width: 23%;
+}
+#hxh,
+#deathnote {
+  clear: both;
+}
+.navbar {
+  background-color: rgb(47, 0, 0);
+  overflow: auto;
+  margin: 5px 3px;
+  padding: 2px 5px 5px 5px;
+  border-radius: 35px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  padding: 5px 30px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: rgb(94, 255, 247);
+  font-size: 18px;
+  font-family: cursive;
+}
+.navbar li a:hover {
+  color: rgb(194, 255, 132);
+}
+.navbar input {
+  float: right;
+  margin: 0px 23px 10px 5px;
+  padding: 10px 30px;
+  border-radius: 26px;
+}
